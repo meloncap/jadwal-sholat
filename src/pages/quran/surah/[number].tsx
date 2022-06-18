@@ -11,7 +11,7 @@ export const getStaticPaths = async () => {
     const response = await fetch(`https://api.quran.sutanlab.id/surah`);
     const data = await response.json();
 
-    const paths = data.data.map((surat: any) => {
+    const paths = data?.data?.map((surat: any) => {
       return {
         params: { number: surat.number.toString() },
       };
