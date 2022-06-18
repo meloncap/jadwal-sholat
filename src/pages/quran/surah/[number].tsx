@@ -52,13 +52,13 @@ const Surah = ({ surat }: suratProps) => {
   const terjemahanClick = () => setTerjemahan(!terjemahan);
 
   return (
-    <Layout title={`Surat ${surat.name.transliteration.id}`}>
+    <Layout title={`Surat`}>
       <div className="flex flex-col justify-center items-center">
-        <h1 className="font-bold text-3xl">{surat.name.transliteration.id}</h1>
+        {/*<h1 className="font-bold text-3xl">{surat.name.transliteration.id}</h1>*/}
         <div className="flex justify-center items-center">
-          <p>
+          {/*<p>
             {surat.name.translation.id}. Surat ke-{surat.number}
-          </p>
+          </p>*/}
         </div>
         <div className="flex gap-2 mt-1">
           <button className="flex gap-1 items-center" onClick={audioClick}>
