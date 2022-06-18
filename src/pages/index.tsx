@@ -16,7 +16,6 @@ const Home = () => {
           &#34;Demi masa, sesungguhnya manusia itu benar-benar berada dalam
           kerugian&#34;
         </p>
-        <Time />
         <div className="flex gap-4">
           <Link href="/jadwal-sholat">
             <button className={buttonClassName}>Jadwal Sholat</button>
