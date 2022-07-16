@@ -45,8 +45,7 @@ const Home = () => {
                 : "Pagi"
             }`}</h1>
             <p className="text-lg md:text-xl font-medium">
-              &#34;Demi masa, sesungguhnya manusia itu benar-benar berada dalam
-              kerugian&#34;
+              &#34;Jangan sampai tertundanya karunia Tuhan kepadamu, setelah kau mengulang-ulang doamu, membuatmu putus asa. Karena Dia menjamin pengabulan doa sesuai pilihan-Nya, bukan sesuai pilihanmu; pada waktu yang diinginkan-Nya, bukan pada waktu yang kau inginkan. – Ibnu Athaillah&#34;
             </p>
             <Time />
           </div>
